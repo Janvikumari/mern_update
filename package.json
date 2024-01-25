@@ -1,7 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "my-app",
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:8000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,31 +44,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "name": "blogging",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "my-app":"npm start --prefix ./my-app",
-    "dev": "concurrently \"npm run server\" \"npm run my-app\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "colors": "^1.4.0",
-    "concurrently": "^8.2.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mongoose": "^8.0.4",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.0.2",
-    "react-redux": "^9.1.0"
->>>>>>> e6f5e6f (second)
   }
 }

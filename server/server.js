@@ -22,7 +22,7 @@ app.get("/",(req,res) =>{
         message:"Node Server",
     });
 });
-const PORT = process.env.PORT ||  5000;
+const PORT = process.env.PORT ||  8000;
 app.listen(PORT, () =>{
     console.log(`Server is running on ${process.env.DEV_MODE} port no ${PORT}`.blue);
 });
